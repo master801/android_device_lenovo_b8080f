@@ -14,7 +14,7 @@ TARGET_NO_BOOTLOADER         := true
 TARGET_BOOTLOADER_BOARD_NAME := MSM8226
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/lenovo/b8080f/kernel
+TARGET_KERNEL_CONFIG := device/lenovo/b8080f/kernel
 BOARD_KERNEL_CMDLINE   := console=ttyHSL0,115200,n8 \
                           androidboot.console=ttyHSL0 \
                           androidboot.hardware=qcom \
