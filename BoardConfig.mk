@@ -18,7 +18,7 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8226
 
 # Kernel
 TARGET_KERNEL_SOURCE      := kernel/lenovo/msm8226
-TARGET_KERNEL_CONFIG      := b8080f_defconfig
+TARGET_KERNEL_CONFIG      := msm8226_defconfig
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_CUSTOM_BOOTIMG_MK   := device/lenovo/b8080f/mkbootimg.mk
 BOARD_KERNEL_CMDLINE      := console=ttyHSL0,115200,n8 \
